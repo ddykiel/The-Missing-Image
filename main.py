@@ -54,6 +54,8 @@ ending_2 = Crot("Ethan stands, a rhythm of metal against his palm. \"I never cou
 
 endlessLoop = bool(True)
 
+times_remembered = 0;
+
 while endlessLoop:
 
   choices = [0, 1]
@@ -77,6 +79,9 @@ while endlessLoop:
   print("________________________________________")
 
   print(title.returnRandom() + '\n')
+  continue_on()
+
+  print("Times remembered: " + str(times_remembered))
   continue_on()
 
   for x in range (len(text_1)):
@@ -201,3 +206,6 @@ while endlessLoop:
     print(ending_2.returnRandom())
 
   continue_on() #Clear screen after iteration
+
+  times_remembered += 1
+  
