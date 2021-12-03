@@ -4,14 +4,18 @@ import replit
 
 """CREATE CROTS"""
 
+#A crot represents a short section of the style. Each crot has two styles, a "liquid" and "crystal" style. Each crot has a returnRandom() method, which has a 50/50 chance of returning either style.
+
 title = Crot("the missing image", "The missing image")
 
 my_mother = Crot("My mother, my mother, my \n My mother ate me up with love.", "my mother my mother yes she ate she ate she ate me up did she say how she said she ate me up with love")
 
+my_mother_list = ["My mother, my mother, my \n My mother ate me up with love.", "my mother my mother yes she ate she ate she ate me up did she say how she said she ate me up with love", "she ate she she", "My mother ate \n me \nu \np", "Me with love, she ate", "with me with love with me she ate" "How she ate me up with love, my mother \nmy", "how did she how she said with me love"]
+
 a = Crot("The dark hall.", "the halls saliva drip down thick burns under fingernails")
 b = Crot("The tour guide with her clipped hair. She built this place. It won't hurt her. At least, not in a way you can understand.", "the girl the girl with her hair pulled back her skull doesn't crack this place won't hurt can't hurt her this place can't touch her no you can't see it touch her yes")
 c = Crot("\"Welcome to my gallery,\" she says. \"Watch the steps. They're slick.\"", "the steps they slide sticky-slick-sex-burns she says to watch watch watch dried flowers blooming out from dead center")
-d = Crot("You step down to the second floor.\n\"Don't eat the artwork,\" she says. \"It bites back.\"", "the floor the floor flows downwards pools into ceiling pools and dries grown brown flaky turned moldy like the sun the artwork tears the artwork has teeth she says teeth teeth teeth don’t be afraid, they'll cut you so quick you won't even feel pain")
+d = Crot("You step down to the second floor.\n\"Don't eat the artwork,\" she says. \"It bites back.\"", "the floor the floor flows downwards pools into ceiling pools and dries grown flaky turned moldy like the sun tears the artwork has teeth she says teeth teeth teeth don’t be afraid, they'll cut you so quick you won't even feel pain")
 e = Crot("The artwork gnaws. Even without you biting first. Brushstrokes like fur, hair caught in its throat.", "brushstrokes fur prickle down your throat the artwork has no manners the artwork touches you without permission")
 
 text_1 = [a, b, c, d, e]
@@ -22,7 +26,7 @@ f_mother = Crot("\"Your mother, too?\" Her lips tighten, old fruit bursting. \"A
 g = Crot("Ethan with his sugar-spun hair, candy-slick tongue.", "the boy the boy blonde hair like an angel curled not subverted the animal the creature no spine no nose no mouth no bumpy little eyes existed before us all in caves of soft warm dark where it ate and drew across the walls trails of slime")
 h = Crot("Your eyes drag over him. The artist is gone. So be it: you’re not sure she’s your friend.", "the creature ignores the creature keeps its slime the artist the woman she’s no better the creature has no answer tells no secrets")
 i = Crot("Ethan kicks at the wall. Whistles. \"Strange place, huh?\" he says. \"I never could make sense of this artsy-fartsy stuff. \'My mother ate me up with love.\' So what? It seems a bit thin for a whole gallery, doesn't it?\"", "the wall the boy the creature ethan spins and whistles with no gravity what a strange place he says, the mother ate ate ate so what? are you afraid of a little teeth little bite little acid tearing down your skin? the fear pulls back it pulls from the shore it goes to rot far in the center of the ocean but maybe not for you huh")
-j = Crot("He turns again, hands buried in his hair. Starts walking.", "the gravity loosens another ring out the boy the spinning out from under you spinning away from your center")
+j = Crot("He turns again, hands buried in his hair. Starts walking.", "the gravity loosens another ring out the boy the spinning out from under your spinning away from your center")
 
 text_2 = [g, h, i, j]
 
@@ -31,24 +35,24 @@ artistDangerWithoutEthan = Crot("You spiral, fall. Or rise. \n Your head pounds.
 artistNoDangerWithEthan = Crot("Ethan swivels away. Still whistling. His face a stone house, unreachable through deep-set windows.", "the boy the boy turns turns away the creature the creature keeps sucking the wall pays you no mind")
 artistNoDangerWithoutEthan = Crot("You fall down the slick-wet stairs, stumble with your breath caught. \nThe artist with her long dark dress, her small sharp teeth. Tools held still in luminous hands. \"You came here with a friend, didn't you? You should keep better track of them.\"", "spiral drip-drop drip you conglomerate you smell you rot you contract you expand breath shudders out of you bones elasticize the woman the girl the artist arrowheads in her teeth nighttime falling against her skin pale pale hands uncooked sinewed nothing nothing to see she says nothing.")
 
-k = Crot("Your friend. She may have looked just like you.","the grasping shadow the fleeting face your friend you when you were children you talked of killing each other in your sleep")
+k = Crot("Your friend. She may have looked just like you.","the shadow fleeting face grasps your friend your friend who when you were children you talked of killing each other in your sleep")
 
-l = Crot("The walls of the gallery crumble, flesh-warm in your hands.","your friend the burr she held you she held your clothes your hair your skin now ethan she holds and follows")
+l = Crot("The walls of the gallery crumble, flesh-warm in your hands.","she held you close held close your clothes your hair she holds and follows")
 
-m = Crot("You may still catch her if you run fast.","your friend the burr she held you she held your clothes your hair your skin now ethan she holds and follows")
+m = Crot("A hand with no face. Gone now, if she had been there at all.","turn to chase turn over your shoulder over your shadow you can hold on to can't")
 
-n = Crot("She holds out a hand with no face. \"Trust me,\" she says, her voice barely a whisper: as if she has already left. \"I may still catch him if I run fast.\"","the warm wind around your shoulders thin thin her thin neck become voice i can find him if you let me trust if you trust me if you trust him not if you trust us trust")
+n = Crot("She holds out a hand with no face. Outside yourself, you can only hear. \"I may still catch him if I run fast.\"","the warm wind around your shoulders thin thin her thin neck become voice i can find him if you let me trust me if you trust not if him trust")
 
-text_3 = [k, l, m, n]
+text_3 = [k, l, n, m]
 
-trustDanger = Crot("She left the gallery and the next morning she was missing.","no spikes no spines no legs to run after to find her did you ever find her did she ever leave leave our gallery did you ever see her leave")
-trustNoDanger = Crot("She left the gallery and bludgeoned his face against the steering wheel. The next morning he was missing.","into the lake with no shorelines receding like the wind like her hand waving thin and luminous he watched her hand from his rearview window shining like the moon")
-noTrustDanger = Crot("She stays in the gallery. One day you find Ethan too. A formless insect, dead within the walls.","she stays and when the cold in the winter strikes you think of making a fire you think of smoking up the bones")
-noTrustNoDanger = Crot("She stays in the gallery with you","she stays she stays she gains a set of scratching gums a new set of teeth i could have torn him and you stopped me why for what why you stopped these hollow teeth and us three in the gallery forever")
+trustDanger = Crot("She left the gallery. You chased after her on the road, tripped and fell in the fog.","no spikes no spines no legs to run after to find her did you ever find her did she ever leave leave our gallery did you ever see her leave")
+trustNoDanger = Crot("She tumbled from the car with no scratches. His face, when they found it, had deep imprints from the steering wheel.","into the lake with no shorelines receding like the wind like her hand waving thin and luminous he watched her hand from his rearview window shining like the moon")
+noTrustDanger = Crot("She stays in the gallery. One day you find Ethan too. Formless within the walls, with smooth skin and teeth.","she stays and when the cold in the winter strikes you think of making a fire you think of smoking up the bones")
+noTrustNoDanger = Crot("She stays with you in the gallery—though you don't know for sure, when the power flickers out.","she stays she stays she gains a set of scratching gums a new set of teeth i could have torn him and why for what why these hollow teeth and us three here forever the door the door locked in a reverberation a filthy dream")
 
 ending_1 = Crot("Start with the glint of metal, iron oxide in your toffee. A head ballooning up and down, ballooning inside itself. A stone house, unreachable through deep- set windows.\n Haven't you heard this story before?","start with glint-metal the iron oxide in his sugar-spun hair a balloon without a body floating up and down haven’t you heard, haven’t you heard this story before?")
 
-ending_2 = Crot("Ethan stands, a rhythm of metal against his palm. \"I never could make sense of this artsy-fartsy stuff,\" he says. Her life glitters in his eyes. \"\'My mother ate me up with love.\' It seems a bit thin for a whole gallery, doesn't it?\"","your gold tooth your silver foil caught between his gums a rhythm of metal between his palms swinging down the metal the metal against his knees haven’t you heard haven’t you heard was it was it ever was she ever")
+ending_2 = Crot("Ethan stands, a rhythm of metal against his palm. \"I never could make sense of this artsy-fartsy stuff,\" he says. Her life glitters in his eyes. \"\'My mother ate me up with love.\' It seems a bit thin for a whole gallery, doesn't it?\"","your gold tooth your silver foil caught between his gums a rhythm of metal between his palms swinging down against his knees haven’t you heard haven’t you it was was it ever was she")
 
 """STORY"""
 
@@ -69,9 +73,10 @@ while endlessLoop:
     print ('\n')
     input("\nPRESS ENTER  ")
     replit.clear()
-    repetition = random.randint(0, 9) #Randomly select a number between 0-9 to determine if the motif will randomly repeat. It repeats if the number is 0; i.e., there's a 1/10 chance it repeats. // Test different frequencies
-    if (repetition == 0):
-      print(my_mother.returnRandom())
+    repetition = random.randint(0, 5) #Randomly select a number between 0-5 to determine if the motif will randomly repeat. It repeats if the number is 0; i.e., there's a 1/6 chance it repeats.
+    if (repetition == 0): #Randomly print one of the my mother fragments
+      list_position = random.randint(0, 7)
+      print(my_mother_list[list_position])
       print ('\n')
       input("\nPRESS ENTER  ")
       replit.clear()
@@ -88,8 +93,8 @@ while endlessLoop:
     print(text_1[x].returnRandom())
     continue_on()
 
-  choice_1_you_list = ["you", "You", "\"you\"", "\"You\""]
-  choice_1_mother_list = ["your mother", "Your mother", "mother", "Mother", "\"your mother\"", "\"Your mother\"", "\"mother\"", "\"Mother\""]
+  choice_1_you_list = ["you", "You", "\"you\"", "\"You\"", "YOU"]
+  choice_1_mother_list = ["your mother", "Your mother", "mother", "Mother", "\"your mother\"", "\"Your mother\"", "\"mother\"", "\"Mother\"", "MOTHER", "YOUR MOTHER"]
   choice_1_list = choice_1_you_list + choice_1_mother_list
 
   print("The artwork is")
@@ -130,8 +135,8 @@ while endlessLoop:
     print(text_2[x].returnRandom())
     continue_on()
 
-  choice_2_follow_list = ["follow", "Follow", "\"follow\"", "\"Follow\""]
-  choice_2_back_list = ["Go back", "go back", "back", "Back", "\"Go back\"", "\"go back\"", "\"back\"", "\"Back\""]
+  choice_2_follow_list = ["follow", "Follow", "\"follow\"", "\"Follow\"", "FOLLOW"]
+  choice_2_back_list = ["Go back", "go back", "back", "Back", "\"Go back\"", "\"go back\"", "\"back\"", "\"Back\"", "GO BACK", "BACK"]
   choice_2_list = choice_2_follow_list + choice_2_back_list
 
   print("Do you follow Ethan or go back to the artist?")
@@ -165,8 +170,8 @@ while endlessLoop:
     print(text_3[x].returnRandom())
     continue_on()
 
-  choice_3_trust_list = ["trust", "Trust", "\"trust\"", "\"Trust\""]
-  choice_3_distrust_list = ["distrust", "Distrust", "\"distrust\"", "\"Distrust\""]
+  choice_3_trust_list = ["trust", "Trust", "\"trust\"", "\"Trust\"", "TRUST"]
+  choice_3_distrust_list = ["distrust", "Distrust", "\"distrust\"", "\"Distrust\"", "DUSTRUST", "not trust", "Not trust", "NOT TRUST"]
   choice_3_list = choice_3_trust_list + choice_3_distrust_list
 
   print("Do you trust or distrust your friend?")
