@@ -10,7 +10,7 @@ title = Crot("the missing image", "The missing image")
 
 my_mother = Crot("My mother, my mother, my \n My mother ate me up with love.", "my mother my mother yes she ate she ate she ate me up did she say how she said she ate me up with love")
 
-my_mother_list = ["My mother, my mother, my \n My mother ate me up with love.", "my mother my mother yes she ate she ate she ate me up did she say how she said she ate me up with love", "she ate she she", "My mother ate \n me \nu \np", "Me with love, she ate", "with me with love with me she ate" "How she ate me up with love, my mother \nmy", "how did she how she said with me love"]
+my_mother_list = ["My mother, my mother, my \n My mother ate me up with love.", "my mother my mother yes she ate she ate she ate me up did she say how she said she ate me up with love", "she ate she she", "My mother ate \n me \nu \np", "Me with love, she ate", "with me with love with me she ate", "How she ate me up with love, my mother \nmy", "how did she how she said with me love"]
 
 a = Crot("The dark hall.", "the halls saliva drip down thick burns under fingernails")
 b = Crot("The tour guide with her clipped hair. She built this place. It won't hurt her. At least, not in a way you can understand.", "the girl the girl with her hair pulled back her skull doesn't crack this place won't hurt can't hurt her this place can't touch her no you can't see it touch her yes")
